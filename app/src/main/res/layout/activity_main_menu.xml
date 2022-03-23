@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="68dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_middle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_middle"
+                android:layout_marginTop="39dp"
+                android:text="Market's Sekret"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="23.3sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_middle"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:lineSpacingExtra="4dp"
+                android:text="Более тысячи базы поставщиков и магазинов в одном приложении!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorWhite" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_BookingActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="IT Park"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_CitiesActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Prometey"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_CityTwoActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Rostelecom"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_Flights_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="HozMarket"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_FlightsActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Sberbank"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_HotelActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Park"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_ListOfHotelsActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Aisberg"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_NearBYActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Tuymaada"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:clipToPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_PlaceActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/blue"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:text="Tsum"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_80"
+                        app:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
