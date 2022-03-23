@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402653827873",
+    "project_id": "markets-secret",
+    "storage_bucket": "markets-secret.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402653827873:android:217b6a0b0078f169432460",
+        "android_client_info": {
+          "package_name": "com.app.marketssecret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402653827873-3nuo97usmbm8le75f9rpm5ghimlrps4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOXSJwJl_OjZgD6NcoavQuWjWC2hEo2QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402653827873-3nuo97usmbm8le75f9rpm5ghimlrps4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
